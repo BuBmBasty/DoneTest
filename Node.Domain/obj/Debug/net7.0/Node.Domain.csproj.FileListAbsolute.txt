@@ -1,0 +1,11 @@
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\bin\Debug\net7.0\Node.Domain.deps.json
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\bin\Debug\net7.0\Node.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\bin\Debug\net7.0\Node.Domain.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\Node.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\Node.Domain.AssemblyInfoInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\Node.Domain.AssemblyInfo.cs
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\Node.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\Node.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\refint\Node.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\Node.Domain.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Debug\net7.0\ref\Node.Domain.dll
