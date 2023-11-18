@@ -73,3 +73,12 @@ C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\obj\Debug\net7.0\refint\No
 C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\obj\Debug\net7.0\Notes.WebApi.pdb
 C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\obj\Debug\net7.0\Notes.WebApi.genruntimeconfig.cache
 C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\obj\Debug\net7.0\ref\Notes.WebApi.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Notes.WebApi\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

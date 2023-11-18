@@ -4,7 +4,7 @@ using Notes.Application.Notes.Queries.GetNoteDetails;
 using Notes.Application.Notes.Commands.CreateNote;
 using Notes.Application.Notes.Commands.UpdateNote;
 using Notes.Application.Notes.Commands.DeleteCommand;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Notes.WebApi.Models;
 using AutoMapper;
 
@@ -18,6 +18,7 @@ namespace Notes.WebApi.Controllers
         public NoteController(IMapper mapper) => _mapper = mapper;
 
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<NoteListVm>> GetAll()
         {
             var querry = new GetNoteListQuery
@@ -31,7 +32,8 @@ namespace Notes.WebApi.Controllers
 
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<NoteListVm>> Get(Guid id)
+		[Authorize]
+		public async Task<ActionResult<NoteListVm>> Get(Guid id)
         {
             var querry = new GetNoteDetalisQuerry
             {
@@ -44,7 +46,8 @@ namespace Notes.WebApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Guid>> Create([FromBody] CreateNoteDto createNoteDto)
+		[Authorize]
+		public async Task<ActionResult<Guid>> Create([FromBody] CreateNoteDto createNoteDto)
         {
             var command = _mapper.Map<CreateNoteCommand>(createNoteDto);
             command.UserId = UserId;
@@ -53,7 +56,8 @@ namespace Notes.WebApi.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update([FromBody] UpdateNoteDto updateNoteDto)
+		[Authorize]
+		public async Task<IActionResult> Update([FromBody] UpdateNoteDto updateNoteDto)
         {
             var command = _mapper.Map<UpdateNoteCommand>(updateNoteDto);
             command.UserId = UserId;
@@ -62,7 +66,8 @@ namespace Notes.WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult> Delete(Guid guid)
+		[Authorize]
+		public async Task<ActionResult> Delete(Guid guid)
         {
             var command = new DeleteNoteCommand { UserId = UserId, Id = guid };
             await Mediator.Send(command);
