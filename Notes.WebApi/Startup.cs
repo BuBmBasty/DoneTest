@@ -3,11 +3,6 @@ using Notes.Application;
 using Notes.Application.Interfaces;
 using System.Reflection;
 using Notes.Persistance;
-using Notes.WebApi;
-using Microsoft.Extensions.Configuration;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Http;
 using Notes.WebApi.Middleware;
 
 namespace Notes.WebApi
