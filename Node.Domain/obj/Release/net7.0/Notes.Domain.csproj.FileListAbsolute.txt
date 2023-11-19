@@ -1,0 +1,11 @@
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\bin\Release\net7.0\Notes.Domain.deps.json
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\bin\Release\net7.0\Notes.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\bin\Release\net7.0\Notes.Domain.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.AssemblyInfoInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.AssemblyInfo.cs
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\refint\Notes.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\ref\Notes.Domain.dll

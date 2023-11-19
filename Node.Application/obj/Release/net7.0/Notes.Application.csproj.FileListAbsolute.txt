@@ -1,0 +1,15 @@
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\bin\Release\net7.0\Notes.Application.deps.json
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\bin\Release\net7.0\Notes.Application.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\bin\Release\net7.0\Notes.Application.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\bin\Release\net7.0\Notes.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\bin\Release\net7.0\Notes.Domain.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.csproj.AssemblyReference.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.AssemblyInfoInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.AssemblyInfo.cs
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.csproj.CoreCompileInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.csproj.CopyComplete
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\refint\Notes.Application.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\Notes.Application.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Application\obj\Release\net7.0\ref\Notes.Application.dll

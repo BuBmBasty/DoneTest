@@ -1,0 +1,17 @@
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\bin\Release\net7.0\Notes.Persistance.deps.json
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\bin\Release\net7.0\Notes.Persistance.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\bin\Release\net7.0\Notes.Persistance.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\bin\Release\net7.0\Notes.Application.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\bin\Release\net7.0\Notes.Domain.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\bin\Release\net7.0\Notes.Application.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\bin\Release\net7.0\Notes.Domain.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.csproj.AssemblyReference.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.AssemblyInfoInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.AssemblyInfo.cs
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.csproj.CopyComplete
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\refint\Notes.Persistance.dll
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\Notes.Persistance.pdb
+C:\Users\Bubmbasty\source\repos\DoneTest\Node.Persistance\obj\Release\net7.0\ref\Notes.Persistance.dll

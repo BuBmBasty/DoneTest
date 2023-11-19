@@ -1,56 +1,55 @@
-﻿using FluentValidation;
-using Microsoft.AspNetCore.Http;
-using Notes.Application.Common.Exceptions;
-using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Threading.Tasks;
 using System.Net;
 using System.Text.Json;
+using FluentValidation;
+using Microsoft.AspNetCore.Http;
+using Notes.Application.Common.Exceptions;
 
 namespace Notes.WebApi.Middleware
 {
-    public class CustomExceptionMiddleware
-    {
-        private readonly RequestDelegate _next;
+	public class CustomExceptionHandlerMiddleware
+	{
+		private readonly RequestDelegate _next;
 
-        public CustomExceptionMiddleware(RequestDelegate next) 
-        {  
-            _next = next; 
-        }
-        public async Task Invoke(HttpContext context)
-        {
-            try
-            {
-                await _next(context);
-            }
-            catch (Exception e) 
-            { 
-                await HandleExeptionAsync(context, e);
-            }
-        }
+		public CustomExceptionHandlerMiddleware(RequestDelegate next) =>
+			_next = next;
 
-        private Task HandleExeptionAsync(HttpContext context, Exception e) 
-        { 
-            var code = HttpStatusCode.InternalServerError;
-            var result = string.Empty;
+		public async Task Invoke(HttpContext context)
+		{
+			try
+			{
+				await _next(context);
+			}
+			catch (Exception exception)
+			{
+				await HandleExceptionAsync(context, exception);
+			}
+		}
 
-            switch (e)
-            {
-                case FluentValidation.ValidationException validationException:
-                    code = HttpStatusCode.BadRequest;
-                    result = JsonSerializer.Serialize(validationException.Errors);
-                    break;
-                case NotFoundException:
-                    code = HttpStatusCode.NotFound;
-                    break;
-            }
-            context.Response.ContentType = "application/json";
-            context.Response.StatusCode = (int)code;
+		private Task HandleExceptionAsync(HttpContext context, Exception exception)
+		{
+			var code = HttpStatusCode.InternalServerError;
+			var result = string.Empty;
+			switch (exception)
+			{
+				case ValidationException validationException:
+					code = HttpStatusCode.BadRequest;
+					result = JsonSerializer.Serialize(validationException.Errors);
+					break;
+				case NotFoundException:
+					code = HttpStatusCode.NotFound;
+					break;
+			}
+			context.Response.ContentType = "application/json";
+			context.Response.StatusCode = (int)code;
 
-            if (result == string.Empty)
-            {
-                result = JsonSerializer.Serialize(new { err = e.Message });
-            }
+			if (result == string.Empty)
+			{
+				result = JsonSerializer.Serialize(new { error = exception.Message });
+			}
 
-            return context.Response.WriteAsync(result);
-        }
-    }
+			return context.Response.WriteAsync(result);
+		}
+	}
 }

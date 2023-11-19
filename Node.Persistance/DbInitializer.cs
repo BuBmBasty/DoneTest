@@ -1,10 +1,10 @@
-﻿namespace Notes.Persistance
+﻿namespace Notes.Persistence
 {
-    public class DbInitializer
-    {
-        public static void Initializer (NotesDBContext context)
-        {
-            context.Database.EnsureCreated ();
-        }
-    }
+	public class DbInitializer
+	{
+		public static void Initialize(NotesDbContext context)
+		{
+			context.Database.EnsureCreated();
+		}
+	}
 }

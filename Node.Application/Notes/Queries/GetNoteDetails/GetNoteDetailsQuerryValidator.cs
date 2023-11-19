@@ -3,14 +3,12 @@ using FluentValidation;
 
 namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
-    public class GetNoteDetailsQuerryValidator: AbstractValidator<GetNoteDetalisQuerry>
-    {
-        public GetNoteDetailsQuerryValidator()
-        {
-            RuleFor(getDetailsQuerryNoteCommand =>
-                getDetailsQuerryNoteCommand.UserId).NotEqual(Guid.Empty);
-            RuleFor(getDetailsQuerryNoteCommand =>
-                getDetailsQuerryNoteCommand.Id).NotEqual(Guid.Empty);
-        }
-    }
+	public class GetNoteDetailsQueryValidator : AbstractValidator<GetNoteDetailsQuery>
+	{
+		public GetNoteDetailsQueryValidator()
+		{
+			RuleFor(note => note.Id).NotEqual(Guid.Empty);
+			RuleFor(note => note.UserId).NotEqual(Guid.Empty);
+		}
+	}
 }

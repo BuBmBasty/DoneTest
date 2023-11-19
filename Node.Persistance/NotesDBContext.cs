@@ -1,19 +1,21 @@
-﻿using Notes.Persistance.EntityTypeConfigurations;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Notes.Application.Interfaces;
 using Notes.Domain;
+using Notes.Persistence.EntityTypeConfigurations;
 
-namespace Notes.Persistance
+namespace Notes.Persistence
 {
-    public class NotesDBContext: DbContext, INotesDBContext
-    {
-        public DbSet<Note> Notes { get; set;}
-        public NotesDBContext(DbContextOptions<NotesDBContext> options): base(options) { }
+	public class NotesDbContext : DbContext, INotesDbContext
+	{
+		public DbSet<Note> Notes { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.ApplyConfiguration(new NoteConfiguration());
-            base.OnModelCreating(builder);
-        }
-    }
+		public NotesDbContext(DbContextOptions<NotesDbContext> options)
+			: base(options) { }
+
+		protected override void OnModelCreating(ModelBuilder builder)
+		{
+			builder.ApplyConfiguration(new NoteConfiguration());
+			base.OnModelCreating(builder);
+		}
+	}
 }

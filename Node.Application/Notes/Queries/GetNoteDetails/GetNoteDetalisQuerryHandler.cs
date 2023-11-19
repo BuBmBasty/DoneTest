@@ -1,31 +1,36 @@
-﻿using AutoMapper;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using AutoMapper;
+using Notes.Application.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Notes.Application.Interfaces;
-using Notes.Domain;
 using Notes.Application.Common.Exceptions;
+using Notes.Domain;
 
 namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
-    public class GetNoteDetalisQuerryHandler
-        : IRequestHandler<GetNoteDetalisQuerry, NoteDetailsVm>
-    {
-        private readonly INotesDBContext _dBContext;
-        private readonly IMapper _mapper;
+	public class GetNoteDetailsQueryHandler
+		: IRequestHandler<GetNoteDetailsQuery, NoteDetailsVm>
+	{
+		private readonly INotesDbContext _dbContext;
+		private readonly IMapper _mapper;
 
-        public GetNoteDetalisQuerryHandler(INotesDBContext dBContext, IMapper mapper)=>(_dBContext, _mapper) = (dBContext, mapper);
-        
+		public GetNoteDetailsQueryHandler(INotesDbContext dbContext,
+			IMapper mapper) => (_dbContext, _mapper) = (dbContext, mapper);
 
-        public async Task<NoteDetailsVm> Handle(GetNoteDetalisQuerry request, CancellationToken cancellationToken)
-        {
-            var entity = await _dBContext.Notes
-                .FirstOrDefaultAsync(note => note.Id == request.Id, cancellationToken);
-            if (entity == null || entity.UserId != request.UserId) 
-            { 
-                throw new NotFoundException(nameof(Note), request.Id);
-            }
+		public async Task<NoteDetailsVm> Handle(GetNoteDetailsQuery request,
+			CancellationToken cancellationToken)
+		{
+			var entity = await _dbContext.Notes
+				.FirstOrDefaultAsync(note =>
+				note.Id == request.Id, cancellationToken);
 
-            return _mapper.Map<NoteDetailsVm>(entity);
-        }
-    }
+			if (entity == null || entity.UserId != request.UserId)
+			{
+				throw new NotFoundException(nameof(Note), request.Id);
+			}
+
+			return _mapper.Map<NoteDetailsVm>(entity);
+		}
+	}
 }
