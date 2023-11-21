@@ -7,19 +7,16 @@ namespace Notes.WebApi.Models
 {
 	public class UpdateNoteDto : IMapWith<UpdateNoteCommand>
 	{
-		public Guid Id { get; set; }
-		public string Title { get; set; }
-		public string Details { get; set; }
+		public Guid UserId { get; set; }
+		public float Ballance { get; set; }		
 
 		public void Mapping(Profile profile)
 		{
 			profile.CreateMap<UpdateNoteDto, UpdateNoteCommand>()
-				.ForMember(noteCommand => noteCommand.Id,
-					opt => opt.MapFrom(noteDto => noteDto.Id))
-				.ForMember(noteCommand => noteCommand.Title,
-					opt => opt.MapFrom(noteDto => noteDto.Title))
-				.ForMember(noteCommand => noteCommand.Details,
-					opt => opt.MapFrom(noteDto => noteDto.Details));
+				.ForMember(noteCommand => noteCommand.UserId,
+					opt => opt.MapFrom(noteDto => noteDto.UserId))
+				.ForMember(noteCommand => noteCommand.Ballance,
+					opt => opt.MapFrom(noteDto => noteDto.Ballance));				
 		}
 	}
 }

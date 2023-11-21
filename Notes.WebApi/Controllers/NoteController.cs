@@ -66,8 +66,7 @@ namespace Notes.WebApi.Controllers
 		{
 			var query = new GetNoteDetailsQuery
 			{
-				UserId = UserId,
-				Id = id
+				UserId = UserId,				
 			};
 			var vm = await Mediator.Send(query);
 			return Ok(vm);
@@ -144,8 +143,7 @@ namespace Notes.WebApi.Controllers
 		public async Task<IActionResult> Delete(Guid id)
 		{
 			var command = new DeleteNoteCommand
-			{
-				Id = id,
+			{				
 				UserId = UserId
 			};
 			await Mediator.Send(command);

@@ -1,4 +1,4 @@
-﻿using Notes.Persistance;
+﻿using Notes.Persistence;
 
 namespace Notes.WebApi
 {
@@ -12,8 +12,8 @@ namespace Notes.WebApi
                 var serviceProvider = scope.ServiceProvider;
                 try
                 {
-                    var context = serviceProvider.GetRequiredService<NotesDBContext>();
-                    DbInitializer.Initializer(context);
+                    var context = serviceProvider.GetRequiredService<NotesDbContext>();
+                    DbInitializer.Initialize(context);
                 }
                 catch (Exception exeption)
                 {

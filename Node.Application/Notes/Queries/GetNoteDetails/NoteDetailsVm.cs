@@ -7,25 +7,29 @@ namespace Notes.Application.Notes.Queries.GetNoteDetails
 {
 	public class NoteDetailsVm : IMapWith<Note>
 	{
-		public Guid Id { get; set; }
-		public string Title { get; set; }
-		public string Details { get; set; }
-		public DateTime CreationDate { get; set; }
-		public DateTime? EditDate { get; set; }
+		public Guid UserId { get; set; }
+		public string LastName { get; set; }
+		public string FirstName { get; set; }
+		public string Patronymic { get; set; }
+		public DateTime BirstDay { get; set; }
+		public float Ballance { get; set; }
+		
 
 		public void Mapping(Profile profile)
 		{
 			profile.CreateMap<Note, NoteDetailsVm>()
-				.ForMember(noteVm => noteVm.Title,
-					opt => opt.MapFrom(note => note.Title))
-				.ForMember(noteVm => noteVm.Details,
-					opt => opt.MapFrom(note => note.Details))
-				.ForMember(noteVm => noteVm.Id,
-					opt => opt.MapFrom(note => note.Id))
-				.ForMember(noteVm => noteVm.CreationDate,
-					opt => opt.MapFrom(note => note.CreationDate))
-				.ForMember(noteVm => noteVm.EditDate,
-					opt => opt.MapFrom(note => note.EditDate));
+				.ForMember(noteVm => noteVm.Ballance,
+					opt => opt.MapFrom(note => note.Ballance))
+				.ForMember(noteVm => noteVm.LastName,
+					opt => opt.MapFrom(note => note.LastName))
+				.ForMember(noteVm => noteVm.FirstName,
+					opt => opt.MapFrom(note => note.FirstName))
+				.ForMember(noteVm => noteVm.Patronymic,
+					opt => opt.MapFrom(note => note.Patronymic))
+				.ForMember(noteVm => noteVm.BirstDay,
+					opt => opt.MapFrom(note => note.BirstDay))
+				.ForMember(noteVm => noteVm.UserId,
+					opt => opt.MapFrom(note => note.UserId));				
 		}
 	}
 }

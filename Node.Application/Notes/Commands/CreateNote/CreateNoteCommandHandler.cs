@@ -12,7 +12,7 @@ namespace Notes.Application.Notes.Commands.CreateNote
 	{
 		private readonly INotesDbContext _dbContext;
 
-		public CreateNoteCommandHandler(INotesDbContext dbContext) =>
+		public  CreateNoteCommandHandler(INotesDbContext dbContext) =>
 			_dbContext = dbContext;
 
 		public async Task<Guid> Handle(CreateNoteCommand request,
@@ -21,17 +21,14 @@ namespace Notes.Application.Notes.Commands.CreateNote
 			var note = new Note
 			{
 				UserId = request.UserId,
-				Title = request.Title,
-				Details = request.Details,
-				Id = Guid.NewGuid(),
-				CreationDate = DateTime.Now,
-				EditDate = null
+				FirstName = request.FirstName,
+				LastName = request.LastName,
+				Patronymic = request.Patronymic,
+				BirstDay = request.BirstDay,
+				Ballance = request.Ballance,												
 			};
 
-			await _dbContext.Notes.AddAsync(note, cancellationToken);
-			await _dbContext.SaveChangesAsync(cancellationToken);
-
-			return note.Id;
+			return note.UserId;
 		}
 	}
 }

@@ -8,16 +8,29 @@ namespace Notes.WebApi.Models
 	public class CreateNoteDto : IMapWith<CreateNoteCommand>
 	{
 		[Required]
-		public string Title { get; set; }
-		public string Details { get; set; }
+		public float Ballance { get; set; }
+		[Required]
+		public string FirstName { get; set; }
+		[Required]
+		public string LastName { get; set; }
+		[Required]
+		public string Patronymic { get; set; }
+		[Required]
+		public DateTime BirstDay { get; set; }
 
 		public void Mapping(Profile profile)
 		{
 			profile.CreateMap<CreateNoteDto, CreateNoteCommand>()
-				.ForMember(noteCommand => noteCommand.Title,
-					opt => opt.MapFrom(noteDto => noteDto.Title))
-				.ForMember(noteCommand => noteCommand.Details,
-					opt => opt.MapFrom(noteDto => noteDto.Details));
+				.ForMember(noteCommand => noteCommand.Ballance,
+					opt => opt.MapFrom(noteDto => noteDto.Ballance))
+				.ForMember(noteCommand => noteCommand.FirstName,
+					opt => opt.MapFrom(noteDto => noteDto.FirstName))
+				.ForMember(noteCommand => noteCommand.LastName,
+					opt => opt.MapFrom(noteDto => noteDto.LastName))
+				.ForMember(noteCommand => noteCommand.Patronymic,
+					opt => opt.MapFrom(noteDto => noteDto.Patronymic))
+				.ForMember(noteCommand => noteCommand.BirstDay,
+					opt => opt.MapFrom(noteDto => noteDto.BirstDay));
 		}
 	}
 }

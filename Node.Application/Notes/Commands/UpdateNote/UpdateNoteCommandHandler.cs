@@ -22,16 +22,14 @@ namespace Notes.Application.Notes.Commands.UpdateNote
 		{
 			var entity =
 				await _dbContext.Notes.FirstOrDefaultAsync(note =>
-					note.Id == request.Id, cancellationToken);
+					note.UserId == request.UserId, cancellationToken);
 
 			if (entity == null || entity.UserId != request.UserId)
 			{
-				throw new NotFoundException(nameof(Note), request.Id);
+				throw new NotFoundException(nameof(Note), request.UserId);
 			}
 
-			entity.Details = request.Details;
-			entity.Title = request.Title;
-			entity.EditDate = DateTime.Now;
+			entity.Ballance = entity.Ballance + request.Ballance;			
 
 			await _dbContext.SaveChangesAsync(cancellationToken);
 

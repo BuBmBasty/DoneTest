@@ -64,7 +64,7 @@ namespace Notes.WebApi
 			services.AddSwaggerGen();
 			services.AddApiVersioning();
 
-			services.AddSingleton<ICurrentUserService>();
+			
 			services.AddHttpContextAccessor();
 		}
 

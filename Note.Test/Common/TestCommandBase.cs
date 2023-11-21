@@ -15,7 +15,9 @@ namespace Notes.Tests.Common
 
 		public void Dispose()
 		{
-			NotesContextFactory.Destroy(Context);
+			
+				NotesContextFactory.Destroy(Context);
+			
 		}
 	}
 }
