@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Note.Test\\Notes.Test.csproj": {}
+    "D:\\GitHub\\DoneTest\\Note.Test\\Notes.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+    "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj",
+        "projectUniqueName": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj",
         "projectName": "Notes.Application",
-        "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj",
-        "packagesPath": "C:\\Users\\Bubmbasty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\obj\\",
+        "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj",
+        "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DoneTest\\Node.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bubmbasty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
-                "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj"
+              "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
+                "projectPath": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj"
               }
             }
           }
@@ -89,25 +85,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
+    "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+        "projectUniqueName": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
         "projectName": "Notes.Domain",
-        "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
-        "packagesPath": "C:\\Users\\Bubmbasty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\obj\\",
+        "projectPath": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+        "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DoneTest\\Node.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bubmbasty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -148,94 +140,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\Notes.Persistance.csproj": {
+    "D:\\GitHub\\DoneTest\\Note.Test\\Notes.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\Notes.Persistance.csproj",
-        "projectName": "Notes.Persistance",
-        "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\Notes.Persistance.csproj",
-        "packagesPath": "C:\\Users\\Bubmbasty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Bubmbasty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj": {
-                "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[7.0.14, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Note.Test\\Notes.Test.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Note.Test\\Notes.Test.csproj",
+        "projectUniqueName": "D:\\GitHub\\DoneTest\\Note.Test\\Notes.Test.csproj",
         "projectName": "Notes.Test",
-        "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Note.Test\\Notes.Test.csproj",
-        "packagesPath": "C:\\Users\\Bubmbasty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Note.Test\\obj\\",
+        "projectPath": "D:\\GitHub\\DoneTest\\Note.Test\\Notes.Test.csproj",
+        "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DoneTest\\Note.Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bubmbasty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -249,11 +168,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj": {
-                "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj"
+              "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+                "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj"
               },
-              "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\Notes.Persistance.csproj": {
-                "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\Notes.Persistance.csproj"
+              "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj": {
+                "projectPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj"
               }
             }
           }
@@ -313,7 +232,72 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj",
+        "projectName": "Notes.Persistence",
+        "projectPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj",
+        "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+                "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

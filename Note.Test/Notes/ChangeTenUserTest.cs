@@ -10,6 +10,7 @@ using Xunit;
 using Notes.Application.Notes.Commands.UpdateNote;
 using Microsoft.EntityFrameworkCore;
 using Notes.Test.Common;
+using Notes.Persistence;
 
 namespace Notes.Test.Notes
 {
@@ -18,9 +19,9 @@ namespace Notes.Test.Notes
 		[Fact]
 		public async Task ChangeTenUser_Success()
 		{
-			//Arrange			
-			var handle = new UpdateNoteCommandHandler(Context);		
-			float updateBallance = 50;
+            //Arrange			
+            var handle = new UpdateNoteCommandHandler(Context);
+            float updateBallance = 50;
 			//Act
 			List<int> randomUserId = RandomShuffle.GetRandomShuffleNumbers(10);
 			for (int i = 0; i < randomUserId.Count; i++)

@@ -886,7 +886,7 @@
           "bin/placeholder/Notes.Domain.dll": {}
         }
       },
-      "Notes.Persistance/1.0.0": {
+      "Notes.Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
@@ -894,10 +894,10 @@
           "Notes.Application": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Notes.Persistance.dll": {}
+          "bin/placeholder/Notes.Persistence.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Notes.Persistance.dll": {}
+          "bin/placeholder/Notes.Persistence.dll": {}
         }
       }
     }
@@ -2305,10 +2305,10 @@
       "path": "../Node.Domain/Notes.Domain.csproj",
       "msbuildProject": "../Node.Domain/Notes.Domain.csproj"
     },
-    "Notes.Persistance/1.0.0": {
+    "Notes.Persistence/1.0.0": {
       "type": "project",
-      "path": "../Node.Persistance/Notes.Persistance.csproj",
-      "msbuildProject": "../Node.Persistance/Notes.Persistance.csproj"
+      "path": "../Notes.Persistence/Notes.Persistence.csproj",
+      "msbuildProject": "../Notes.Persistence/Notes.Persistence.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2319,29 +2319,24 @@
       "Microsoft.AspNetCore.Mvc.Versioning >= 5.1.0",
       "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer >= 5.1.0",
       "Notes.Application >= 1.0.0",
-      "Notes.Persistance >= 1.0.0",
+      "Notes.Persistence >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Bubmbasty\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\GuLoN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
+      "projectUniqueName": "D:\\GitHub\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
       "projectName": "Notes.WebApi",
-      "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Bubmbasty\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Notes.WebApi\\obj\\",
+      "projectPath": "D:\\GitHub\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
+      "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub\\DoneTest\\Notes.WebApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Bubmbasty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2355,11 +2350,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj": {
-              "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Application\\Notes.Application.csproj"
+            "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+              "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj"
             },
-            "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\Notes.Persistance.csproj": {
-              "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Persistance\\Notes.Persistance.csproj"
+            "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj": {
+              "projectPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj"
             }
           }
         }
@@ -2418,7 +2413,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

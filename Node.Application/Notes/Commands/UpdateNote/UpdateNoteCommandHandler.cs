@@ -7,17 +7,21 @@ using Notes.Application.Interfaces;
 using Notes.Application.Common.Exceptions;
 using Notes.Domain;
 
+
 namespace Notes.Application.Notes.Commands.UpdateNote
 {
 	public class UpdateNoteCommandHandler
 		: IRequestHandler<UpdateNoteCommand>
 	{
 		private readonly INotesDbContext _dbContext;
+      
 
-		public UpdateNoteCommandHandler(INotesDbContext dbContext) =>
+        public UpdateNoteCommandHandler(INotesDbContext dbContext) =>
 			_dbContext = dbContext;
 
-		public async Task<Unit> Handle(UpdateNoteCommand request,
+      
+
+        public async Task<Unit> Handle(UpdateNoteCommand request,
 			CancellationToken cancellationToken)
 		{
 			var entity =

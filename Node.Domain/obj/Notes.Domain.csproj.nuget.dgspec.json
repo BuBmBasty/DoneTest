@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {}
+    "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
+    "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+        "projectUniqueName": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
         "projectName": "Notes.Domain",
-        "projectPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
-        "packagesPath": "C:\\Users\\Bubmbasty\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bubmbasty\\source\\repos\\DoneTest\\Node.Domain\\obj\\",
+        "projectPath": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+        "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\DoneTest\\Node.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Bubmbasty\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

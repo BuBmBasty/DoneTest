@@ -9,3 +9,15 @@ C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Do
 C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\refint\Notes.Domain.dll
 C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.pdb
 C:\Users\Bubmbasty\source\repos\DoneTest\Node.Domain\obj\Release\net7.0\ref\Notes.Domain.dll
+D:\GitHub\DoneTest\Node.Domain\bin\Release\net7.0\Notes.Domain.deps.json
+D:\GitHub\DoneTest\Node.Domain\bin\Release\net7.0\Notes.Domain.dll
+D:\GitHub\DoneTest\Node.Domain\bin\Release\net7.0\Notes.Domain.pdb
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.AssemblyInfoInputs.cache
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.AssemblyInfo.cs
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.sourcelink.json
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.dll
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\refint\Notes.Domain.dll
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\Notes.Domain.pdb
+D:\GitHub\DoneTest\Node.Domain\obj\Release\net7.0\ref\Notes.Domain.dll
