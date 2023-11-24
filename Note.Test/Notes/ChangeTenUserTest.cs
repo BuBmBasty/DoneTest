@@ -1,20 +1,12 @@
-﻿using System;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using Notes.Application.Common.Exceptions;
-using Notes.Application.Notes.Commands.DeleteCommand;
-using Notes.Application.Notes.Commands.CreateNote;
-using Notes.Tests.Common;
+﻿using Notes.Tests.Common;
 using Xunit;
 using Notes.Application.Notes.Commands.UpdateNote;
 using Microsoft.EntityFrameworkCore;
 using Notes.Test.Common;
-using Notes.Persistence;
 
 namespace Notes.Test.Notes
 {
-	public class ChangeTenUserTest : TestCommandBase
+    public class ChangeTenUserTest : TestCommandBase
 	{
 		[Fact]
 		public async Task ChangeTenUser_Success()

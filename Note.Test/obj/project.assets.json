@@ -318,6 +318,26 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Configuration/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2437,18 +2457,21 @@
           "bin/placeholder/Notes.Domain.dll": {}
         }
       },
-      "Notes.Persistence/1.0.0": {
+      "Notes.Persistense/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "7.0.14",
+          "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.14",
+          "Microsoft.Extensions.Configuration": "7.0.0",
           "Notes.Application": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Notes.Persistence.dll": {}
+          "bin/placeholder/Notes.Persistense.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Notes.Persistence.dll": {}
+          "bin/placeholder/Notes.Persistense.dll": {}
         }
       }
     }
@@ -3007,6 +3030,33 @@
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
         "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration/7.0.0": {
+      "sha512": "tldQUBWt/xeH2K7/hMPPo5g8zuLc3Ro9I5d4o/XrxvxOCA2EZBtW7bCHHTc49fcBtvB8tLAb/Qsmfrq+2SJ4vA==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Configuration.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Configuration.targets",
+        "lib/net462/Microsoft.Extensions.Configuration.dll",
+        "lib/net462/Microsoft.Extensions.Configuration.xml",
+        "lib/net6.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net6.0/Microsoft.Extensions.Configuration.xml",
+        "lib/net7.0/Microsoft.Extensions.Configuration.dll",
+        "lib/net7.0/Microsoft.Extensions.Configuration.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
+        "microsoft.extensions.configuration.7.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -7239,10 +7289,10 @@
       "path": "../Node.Domain/Notes.Domain.csproj",
       "msbuildProject": "../Node.Domain/Notes.Domain.csproj"
     },
-    "Notes.Persistence/1.0.0": {
+    "Notes.Persistense/1.0.0": {
       "type": "project",
-      "path": "../Notes.Persistence/Notes.Persistence.csproj",
-      "msbuildProject": "../Notes.Persistence/Notes.Persistence.csproj"
+      "path": "../Notes.Persistense/Notes.Persistense.csproj",
+      "msbuildProject": "../Notes.Persistense/Notes.Persistense.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7250,7 +7300,7 @@
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.14",
       "Microsoft.NET.Test.Sdk >= 17.7.1",
       "Notes.Application >= 1.0.0",
-      "Notes.Persistence >= 1.0.0",
+      "Notes.Persistense >= 1.0.0",
       "Shouldly >= 4.2.1",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
@@ -7258,19 +7308,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\GuLoN\\.nuget\\packages\\": {}
+    "C:\\Users\\GuLoN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\DoneTest\\Note.Test\\Notes.Test.csproj",
+      "projectUniqueName": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Note.Test\\Notes.Test.csproj",
       "projectName": "Notes.Test",
-      "projectPath": "D:\\GitHub\\DoneTest\\Note.Test\\Notes.Test.csproj",
+      "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Note.Test\\Notes.Test.csproj",
       "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\DoneTest\\Note.Test\\obj\\",
+      "outputPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Note.Test\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7284,11 +7339,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
-              "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj"
+            "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+              "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj"
             },
-            "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj": {
-              "projectPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj"
+            "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\Notes.Persistense.csproj": {
+              "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\Notes.Persistense.csproj"
             }
           }
         }

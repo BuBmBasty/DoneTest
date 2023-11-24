@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj": {}
+    "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+    "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj",
+        "projectUniqueName": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj",
         "projectName": "Notes.Application",
-        "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj",
+        "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj",
         "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\DoneTest\\Node.Application\\obj\\",
+        "outputPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
-                "projectPath": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj"
+              "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
+                "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\Notes.Domain.csproj"
               }
             }
           }
@@ -89,17 +93,21 @@
         }
       }
     },
-    "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
+    "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\Notes.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
         "projectName": "Notes.Domain",
-        "projectPath": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+        "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
         "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\DoneTest\\Node.Domain\\obj\\",
+        "outputPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,17 +152,21 @@
         }
       }
     },
-    "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj": {
+    "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\Notes.Persistense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj",
-        "projectName": "Notes.Persistence",
-        "projectPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\Notes.Persistense.csproj",
+        "projectName": "Notes.Persistense",
+        "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\Notes.Persistense.csproj",
         "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -168,8 +180,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
-                "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj"
+              "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+                "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj"
               }
             }
           }
@@ -184,9 +196,21 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -209,17 +233,21 @@
         }
       }
     },
-    "D:\\GitHub\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj": {
+    "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
         "projectName": "Notes.WebApi",
-        "projectPath": "D:\\GitHub\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
+        "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
         "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\DoneTest\\Notes.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.WebApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -233,11 +261,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj": {
-                "projectPath": "D:\\GitHub\\DoneTest\\Node.Application\\Notes.Application.csproj"
+              "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj": {
+                "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Application\\Notes.Application.csproj"
               },
-              "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj": {
-                "projectPath": "D:\\GitHub\\DoneTest\\Notes.Persistence\\Notes.Persistence.csproj"
+              "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\Notes.Persistense.csproj": {
+                "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.Persistense\\Notes.Persistense.csproj"
               }
             }
           }

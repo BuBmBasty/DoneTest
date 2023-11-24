@@ -26,7 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Node.Application\Notes.Application.csproj" />
-    <ProjectReference Include="..\Notes.Persistence\Notes.Persistence.csproj" />
+    <ProjectReference Include="..\Notes.Persistense\Notes.Persistense.csproj" />
   </ItemGroup>
 
 </Project>

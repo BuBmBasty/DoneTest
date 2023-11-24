@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bVLgS4IdVPrTIOHuPtdfdC21qK/02b6YkM0aVg2kjL/CY0AMnf9Y9bYNz3snrCHLkKMzFNkES21piTxVIEf+7g==",
+  "dgSpecHash": "DuxB82fa9MXGMx2150d/3skp6QEZpQuGRSHYbJ4vpIUa5SQtby4z0thkCfaVzdF4MqoUwlpOKU0Yu2Wz1oX+Qw==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\DoneTest\\Note.Test\\Notes.Test.csproj",
+  "projectFilePath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Note.Test\\Notes.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GuLoN\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
@@ -25,6 +25,7 @@
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\7.0.14\\microsoft.entityframeworkcore.sqlite.core.7.0.14.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

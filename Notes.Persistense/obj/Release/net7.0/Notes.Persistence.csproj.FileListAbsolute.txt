@@ -1,0 +1,6 @@
+D:\GitHub\DoneTest\Notes.Persistence\obj\Release\net7.0\Notes.Persistence.csproj.AssemblyReference.cache
+D:\GitHub\DoneTest\Notes.Persistence\obj\Release\net7.0\Notes.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\DoneTest\Notes.Persistence\obj\Release\net7.0\Notes.Persistence.AssemblyInfoInputs.cache
+D:\GitHub\DoneTest\Notes.Persistence\obj\Release\net7.0\Notes.Persistence.AssemblyInfo.cs
+D:\GitHub\DoneTest\Notes.Persistence\obj\Release\net7.0\Notes.Persistence.csproj.CoreCompileInputs.cache
+D:\GitHub\DoneTest\Notes.Persistence\obj\Release\net7.0\Notes.Persistence.sourcelink.json

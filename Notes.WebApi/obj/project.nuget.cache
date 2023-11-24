@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G6Z7QuvRoJW6ztY/PD3ii3dghf2TGcfNewyjuZqE1CTo/IrPDn/28R0m1aZEnTUDs/beSkeATgZ7fYgPYZraUA==",
+  "dgSpecHash": "vwo8u4iHic3iXqoQHjimiJt3JgNyb408Cu395MMNrp9fK/GSrWsvIOQlJn8OXdEeENG79lilfpVTDJArW06bLA==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
+  "projectFilePath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Notes.WebApi\\Notes.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GuLoN\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -25,6 +25,7 @@
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\GuLoN\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",

@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\GuLoN\\.nuget\\packages\\": {}
+    "C:\\Users\\GuLoN\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
       "projectName": "Notes.Domain",
-      "projectPath": "D:\\GitHub\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
+      "projectPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\Notes.Domain.csproj",
       "packagesPath": "C:\\Users\\GuLoN\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\DoneTest\\Node.Domain\\obj\\",
+      "outputPath": "C:\\Users\\GuLoN\\Downloads\\DoneTest\\DoneTest\\Node.Domain\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\GuLoN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

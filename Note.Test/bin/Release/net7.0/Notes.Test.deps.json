@@ -11,7 +11,7 @@
           "Microsoft.EntityFrameworkCore.InMemory": "7.0.14",
           "Microsoft.NET.Test.Sdk": "17.7.1",
           "Notes.Application": "1.0.0",
-          "Notes.Persistance": "1.0.0",
+          "Notes.Persistense": "1.0.0",
           "Shouldly": "4.2.1",
           "coverlet.collector": "3.2.0",
           "xunit": "2.4.2",
@@ -211,6 +211,18 @@
         },
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Configuration.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
           }
@@ -1512,13 +1524,16 @@
           "Notes.Domain.dll": {}
         }
       },
-      "Notes.Persistance/1.0.0": {
+      "Notes.Persistense/1.0.0": {
         "dependencies": {
+          "Microsoft.Data.Sqlite.Core": "7.0.14",
+          "Microsoft.EntityFrameworkCore": "7.0.14",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.14",
+          "Microsoft.Extensions.Configuration": "7.0.0",
           "Notes.Application": "1.0.0"
         },
         "runtime": {
-          "Notes.Persistance.dll": {}
+          "Notes.Persistense.dll": {}
         }
       }
     }
@@ -1675,6 +1690,13 @@
       "sha512": "sha512-xpidBs2KCE2gw1JrD0quHE72kvCaI3xFql5/Peb2GRtUuZX+dYPoK/NTdVMiM67Svym0M0Df9A3xyU0FbMQhHw==",
       "path": "microsoft.extensions.caching.memory/7.0.0",
       "hashPath": "microsoft.extensions.caching.memory.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tldQUBWt/xeH2K7/hMPPo5g8zuLc3Ro9I5d4o/XrxvxOCA2EZBtW7bCHHTc49fcBtvB8tLAb/Qsmfrq+2SJ4vA==",
+      "path": "microsoft.extensions.configuration/7.0.0",
+      "hashPath": "microsoft.extensions.configuration.7.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "type": "package",
@@ -2421,7 +2443,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Notes.Persistance/1.0.0": {
+    "Notes.Persistense/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,0 +1,17 @@
+D:\Test\DoneTest\Notes.Persistense\bin\Release\net7.0-windows\Notes.Persistense.deps.json
+D:\Test\DoneTest\Notes.Persistense\bin\Release\net7.0-windows\Notes.Persistense.dll
+D:\Test\DoneTest\Notes.Persistense\bin\Release\net7.0-windows\Notes.Persistense.pdb
+D:\Test\DoneTest\Notes.Persistense\bin\Release\net7.0-windows\Notes.Application.dll
+D:\Test\DoneTest\Notes.Persistense\bin\Release\net7.0-windows\Notes.Domain.dll
+D:\Test\DoneTest\Notes.Persistense\bin\Release\net7.0-windows\Notes.Application.pdb
+D:\Test\DoneTest\Notes.Persistense\bin\Release\net7.0-windows\Notes.Domain.pdb
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.csproj.AssemblyReference.cache
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.AssemblyInfoInputs.cache
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.AssemblyInfo.cs
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.csproj.CoreCompileInputs.cache
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.csproj.CopyComplete
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.dll
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\refint\Notes.Persistense.dll
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\Notes.Persistense.pdb
+D:\Test\DoneTest\Notes.Persistense\obj\Release\net7.0-windows\ref\Notes.Persistense.dll
